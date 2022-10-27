@@ -1,0 +1,659 @@
+@import "resets.scss"
+@import "normalizes.scss"
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap')
+
+* 
+    box-sizing: border-box
+
+*::before,*::after
+    box-sizing: initial
+
+a
+    text-decoration: none
+    color: black
+
+button
+    border: none
+    background: none
+    &:hover
+        cursor: pointer
+
+.container
+    width: 1294px
+    margin: 0 auto
+
+
+.burger 
+    display: none
+    hr
+        width: 30px
+        height: 2px
+        background: #000
+        margin-right: 0
+
+.header-section 
+    height: 80px   
+    margin-bottom: 28px 
+    &__inner   
+        height: 80px 
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+.nav    
+    &__list 
+        display: flex
+        align-items: center
+        justify-content: center
+        a
+            margin-right: 35px
+            transition: .3s
+            &:hover
+                transition: .3s
+                transform: scale(1.1)
+            &:last-child
+                margin-right: 0
+    &__li
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        text-transform: uppercase
+        color: #000000
+
+.menu   
+    display: flex
+    align-items: center
+    button
+        margin-right: 13px
+
+// INTRO
+
+.intro-section  
+    min-height: 550px
+    margin-bottom: 75px
+    &__inner
+        position: relative
+        padding-left: 18px 
+        height: 550px
+        background: #DCE5E2
+        border-radius: 32px
+        display: flex
+        align-items: center
+        justify-content: center
+    &__arrow-left   
+        position: absolute
+        top: 262px
+        left: 18px
+    &__arrow-right
+        position: absolute
+        top: 262px
+        right: 18px
+    &__hr-box   
+        position: absolute
+        bottom: 34px
+        display: flex
+        align-items: center
+        justify-content: center
+    &__hr
+        width: 194px
+        height: 2px
+        background: #000
+        border: none
+        border-radius: 2px
+        margin-right: 34px
+
+.left-wrapper   
+    &__title    
+        font-family: 'Readex Pro'
+        font-style: normal
+        font-weight: 400
+        font-size: 58px
+        line-height: 70px
+        color: #000000
+    &__subtitle
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+        color: #000000
+        margin-bottom: 30px
+    
+.btn    
+    padding: 14px 53px  
+    border: 1px solid black
+    border-radius: 200px
+    font-family: 'Inter'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 22px
+    text-transform: capitalize
+    color: #000000
+    transition: .3s
+    &:hover
+        transition: .3s
+        background: #e6f1ee
+
+// CATEGORIES
+
+
+.categories-section
+    min-height: 1018px
+    margin-bottom: 72px
+    &__subtitle
+    &__box
+        display: flex
+
+
+.title
+    font-family: 'Readex Pro'
+    font-style: normal
+    font-weight: 400
+    font-size: 42px
+    line-height: 52px
+    text-align: center
+    color: #000000
+    margin: 0
+
+.subtitle
+    font-family: 'Readex Pro'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #000000
+    margin-bottom: 55px
+
+.text   
+    font-family: 'Readex Pro'
+    font-style: normal
+    font-weight: 400
+    font-size: 32px
+    line-height: 38px
+    color: #000000
+
+.subtext
+    font-family: 'Inter'
+    font-style: normal
+    font-weight: 400
+    font-size: 15px
+    line-height: 19px
+    color: black
+
+.vertical
+    margin-right: 16px
+    &__box-1
+        width: 639px
+        height: 472px
+        border-radius: 32px
+        padding: 0 42px
+        margin-bottom: 72px
+        box-shadow: 0px 0px 52px -19px rgba(0,0,0,0.75)
+    &__box-2    
+        width: 639px
+        height: 270px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 32px
+        box-shadow: 0px 0px 52px -19px rgba(0,0,0,0.75)
+        img
+            margin-right: 46px
+    &__subtitle
+        text-align: right
+    &__title
+        text-align: right
+
+.gorizontal
+    display: flex
+    &__box-1    
+        width: 312px
+        height: 792px
+        display: flex
+        margin-right: 16px
+        justify-content: center
+        flex-direction: column
+        border-radius: 32px
+        box-shadow: 0px 0px 52px -19px rgba(0,0,0,0.75)
+        img
+            margin-bottom: 42px
+    &__box-2
+        width: 312px
+        height: 792px
+        display: flex
+        justify-content: center
+        flex-direction: column
+        border-radius: 32px
+        box-shadow: 0px 0px 52px -19px rgba(0,0,0,0.75)
+        h3
+            margin-bottom: 41px
+    &__title
+        text-align: center
+    &__subtitle
+        text-align: center
+
+// selled
+
+.selled-section
+    min-height: 606px
+    margin-bottom: 47px
+
+.items
+    display: flex
+    justify-content: center
+    align-items: center
+    &__box
+        width: 302.5px
+        height: 396px
+        margin-right: 28px
+    &__image    
+        width: 303px
+        height: 270px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 5px
+    &__title
+    &__name 
+        font-family: 'Readex Pro'
+        font-style: normal
+        font-weight: 400
+        font-size: 22px
+        line-height: 28px
+        color: #000000
+        margin-bottom: 9px
+    &__subtitle
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #4B4B4B
+        margin-bottom: 25px
+    &__price    
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        color: #000000
+
+// BEST
+
+.best-section
+    min-height: 663px   
+    margin-bottom: 47px
+    &__box
+        width: 413px
+        height: 453px
+        border-radius: 16px
+        background: #F8F9FA
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        margin-right: 28px
+    &__subtitle
+        font-family: 'Readex Pro'
+        font-style: normal
+        font-weight: 400
+        font-size: 13px
+        line-height: 17px
+        text-align: center
+        color: #000000
+    &__title
+        font-family: 'Readex Pro'
+        font-style: normal
+        font-weight: 400
+        font-size: 28px
+        line-height: 35px
+        text-align: center
+        color: #000000
+        margin-bottom: 30px
+    &__btn
+        margin-bottom: 30px
+
+// IDEAs
+
+.ideas-section
+    min-height: 728px
+    &__box
+        display: flex
+        justify-content: center
+        margin-bottom: 73px
+    &__left
+        margin-right: 35px
+    &__right
+        padding-top: 14px
+        p
+            font-family: 'Inter'
+            font-style: normal
+            font-weight: 400
+            font-size: 24px
+            line-height: 30px
+            color: #000000
+            margin-bottom: 28px
+    &__href 
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 24px
+        line-height: 29px
+        text-transform: capitalize
+        color: #000000
+
+// Search
+
+.search-section 
+    min-height: 778px
+    &__title
+        margin-bottom: 10px
+    &__input   
+        display: flex
+        justify-content: center 
+        position: relative
+        margin-bottom: 10px
+        img
+            position: absolute
+            top: 15px
+            left: 342px
+        input
+            width: 650px
+            height: 60px
+            background: #F8F9FA
+            border: 1px solid #C5C5C5
+            border-radius: 100px
+            padding-left: 67px
+            outline: none
+    &__search-btn   
+        width: 660px
+        height: 98px
+        margin: 0 auto
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+        margin-bottom: 61px
+        button
+            padding: 12px 22px
+            background: #FFFFFF
+            border: 1px solid #C5C5C5
+            border-radius: 200px
+    &__buttons
+        margin-right: 7px
+    &__box
+        width: 935px
+        height: 450px
+        background: #DCE5E2
+        border-radius: 16px
+        margin: 0 auto
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        input
+            width: 285px
+            height: 50px
+            padding-left: 32px
+            outline: none
+            background: #DCE5E2
+            border: 1px solid #000000
+            border-radius: 54px 0px 0px 54px
+        a
+            padding: 16px 32px
+            color: white
+            background: #000000
+            border-radius: 0px 200px 200px 0px
+
+// FOOTER
+
+.footer-section
+    min-height: 300px 
+    background: #F8F9FA
+    padding-top: 45px  
+    &__inner    
+        display: flex
+        align-items: start
+    &__logo 
+        margin-right: 118px
+        img
+            margin-bottom: 18px
+        p
+            font-family: 'Inter'
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 19px
+            color: #000000
+    &__block    
+        display: flex
+        align-items: start
+    &__box
+        margin-right: 93px
+        h3
+            font-family: 'Readex Pro'
+            font-style: normal
+            font-weight: 400
+            font-size: 22px
+            line-height: 28px
+            color: #000000
+            margin-bottom: 19px
+        ul
+            li
+                font-family: 'Inter'
+                font-style: normal
+                font-weight: 400
+                font-size: 17px
+                line-height: 22px
+                color: #000000
+                margin-bottom: 14px
+
+
+@media ( max-width: 1199px )
+    .container  
+        width: 960px
+
+    .header-section__inner  
+        justify-content: space-around
+    
+    .nav-list
+        a
+            margin-right: 22px
+
+    
+    .menu
+        button
+            margin-right: 0
+
+    .intro-section
+        min-height: 358px
+        &__inner   
+            height: 392px
+        &__arrow-left
+            top: 181px
+        &__arrow-right
+            top: 181px
+        &__hr
+            width: 90px
+
+    .left-wrapper
+        &__title
+            font-size: 25px
+            line-height: 31px
+        &__subtitle
+            font-size: 12px
+            line-height: 13px
+    .btn
+        padding: 12px 30px
+    
+    .right-wrapper  
+        img
+            height: 390px
+    
+    .categories-section
+        &__inner
+        &__box
+            width: 450px
+            padding-left: 18%
+            flex-direction: column
+
+    .title
+        font-size: 42px
+        line-height: 42px
+
+    .vertical
+        margin-bottom: 30px
+        margin-right: 0
+
+    .selled-section
+        &__inner
+
+    .items  
+        flex-wrap: wrap
+
+    .best-section
+        &__inner
+        &__box
+            margin-bottom: 20px
+    
+    .ideas-section
+        margin-bottom: 60px
+        &__inner
+        &__box
+            display: block
+        &__left
+            margin-right: 0
+            text-align: center
+            img
+                height: 300px
+        &__right
+            p
+                text-align: center
+    
+    .search-section
+        &__inner
+        &__title
+            margin-bottom: 20px
+        &__input    
+            img
+                left: 171px
+        &__box
+
+        
+    .footer-section
+        min-height: 216px
+        padding: 0
+        &__inner    
+        &__box
+            margin-right: 30px
+        &__logo
+            margin-right: 80px
+            margin-bottom: 40px
+
+    
+@media  ( max-width: 991px )
+    .container  
+        width: 720px
+
+    .intro-section  
+        &__arrow-left
+            display: none
+        &__arrow-right
+            display: none
+    
+    .header-section
+        &__inner
+            justify-content: space-between
+
+    .categories-section
+        &__inner
+            display: flex
+            flex-direction: column
+            justify-content: center
+        &__title
+            font-size: 30px
+        &__box
+            padding-left: 5%
+
+    .search-section
+        &__box
+            width: 100%
+        &__input
+            img
+                left: 50px
+
+    .footer-section
+        &__logo
+            margin-right: 10px
+            
+    
+@media ( max-width: 767px )
+    .container  
+        width: 540px
+
+    .nav    
+        display: none
+
+    .header-section
+        &__inner
+            justify-content: space-between  
+    .burger 
+        display: block
+        margin-left: 20px
+
+    .right-wrapper  
+        display: none
+
+    .vertical
+        &__box-1
+            width: 540px
+            img
+                width: 475px
+        &__box-2
+            width: 540px
+            img
+                width: 368px
+
+    .gorizontal
+        &__box-1
+            width: 234px
+            height: 635px
+            margin-right: 70px
+        &__box-2
+            width: 234px
+            height: 635px
+
+    .categories-section 
+        &__box
+            padding: 0
+
+    .ideas-section
+        &__right
+            p
+                font-size: 20px
+    
+    .search-section
+        &__search-btn
+            width: 500px
+        &__input
+            img
+                left: 20px
+
+    .title  
+        font-size: 30px
+
+    .footer-section
+        &__inner
+            flex-direction: column
+
+@media ( max-width: 575px )
+    .container  
+        width: 100%
+    

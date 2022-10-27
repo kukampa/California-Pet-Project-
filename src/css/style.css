@@ -1,0 +1,1345 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap");
+/* line 1, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 5, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+*::before, *::after {
+  box-sizing: initial;
+}
+
+/* line 11, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 15, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+button {
+  border: none;
+  background: none;
+}
+
+/* line 18, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+button:hover {
+  cursor: pointer;
+}
+
+/* line 21, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.container {
+  width: 1294px;
+  margin: 0 auto;
+}
+
+/* line 26, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.burger {
+  display: none;
+}
+
+/* line 28, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.burger hr {
+  width: 30px;
+  height: 2px;
+  background: #000;
+  margin-right: 0;
+}
+
+/* line 34, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.header-section {
+  height: 80px;
+  margin-bottom: 28px;
+}
+
+/* line 37, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.header-section__inner {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 44, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 48, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.nav__list a {
+  margin-right: 35px;
+  transition: .3s;
+}
+
+/* line 51, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.nav__list a:hover {
+  transition: .3s;
+  transform: scale(1.1);
+}
+
+/* line 54, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.nav__list a:last-child {
+  margin-right: 0;
+}
+
+/* line 56, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.nav__li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* line 65, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+/* line 68, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.menu button {
+  margin-right: 13px;
+}
+
+/* line 73, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.intro-section {
+  min-height: 550px;
+  margin-bottom: 75px;
+}
+
+/* line 76, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.intro-section__inner {
+  position: relative;
+  padding-left: 18px;
+  height: 550px;
+  background: #DCE5E2;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 85, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.intro-section__arrow-left {
+  position: absolute;
+  top: 262px;
+  left: 18px;
+}
+
+/* line 89, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.intro-section__arrow-right {
+  position: absolute;
+  top: 262px;
+  right: 18px;
+}
+
+/* line 93, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.intro-section__hr-box {
+  position: absolute;
+  bottom: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 99, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.intro-section__hr {
+  width: 194px;
+  height: 2px;
+  background: #000;
+  border: none;
+  border-radius: 2px;
+  margin-right: 34px;
+}
+
+/* line 108, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.left-wrapper__title {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+
+/* line 115, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.left-wrapper__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+/* line 124, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.btn {
+  padding: 14px 53px;
+  border: 1px solid black;
+  border-radius: 200px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  transition: .3s;
+}
+
+/* line 136, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.btn:hover {
+  transition: .3s;
+  background: #e6f1ee;
+}
+
+/* line 143, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.categories-section {
+  min-height: 1018px;
+  margin-bottom: 72px;
+}
+
+/* line 147, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.categories-section__box {
+  display: flex;
+}
+
+/* line 151, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.title {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+/* line 161, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.subtitle {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 55px;
+}
+
+/* line 171, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.text {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+/* line 179, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.subtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: black;
+}
+
+/* line 187, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.vertical {
+  margin-right: 16px;
+}
+
+/* line 189, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.vertical__box-1 {
+  width: 639px;
+  height: 472px;
+  border-radius: 32px;
+  padding: 0 42px;
+  margin-bottom: 72px;
+  box-shadow: 0px 0px 52px -19px rgba(0, 0, 0, 0.75);
+}
+
+/* line 196, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.vertical__box-2 {
+  width: 639px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  box-shadow: 0px 0px 52px -19px rgba(0, 0, 0, 0.75);
+}
+
+/* line 204, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.vertical__box-2 img {
+  margin-right: 46px;
+}
+
+/* line 206, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.vertical__subtitle {
+  text-align: right;
+}
+
+/* line 208, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.vertical__title {
+  text-align: right;
+}
+
+/* line 211, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal {
+  display: flex;
+}
+
+/* line 213, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal__box-1 {
+  width: 312px;
+  height: 792px;
+  display: flex;
+  margin-right: 16px;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 32px;
+  box-shadow: 0px 0px 52px -19px rgba(0, 0, 0, 0.75);
+}
+
+/* line 222, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal__box-1 img {
+  margin-bottom: 42px;
+}
+
+/* line 224, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal__box-2 {
+  width: 312px;
+  height: 792px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 32px;
+  box-shadow: 0px 0px 52px -19px rgba(0, 0, 0, 0.75);
+}
+
+/* line 232, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal__box-2 h3 {
+  margin-bottom: 41px;
+}
+
+/* line 234, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal__title {
+  text-align: center;
+}
+
+/* line 236, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.gorizontal__subtitle {
+  text-align: center;
+}
+
+/* line 241, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.selled-section {
+  min-height: 606px;
+  margin-bottom: 47px;
+}
+
+/* line 245, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 249, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.items__box {
+  width: 302.5px;
+  height: 396px;
+  margin-right: 28px;
+}
+
+/* line 253, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.items__image {
+  width: 303px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+/* line 261, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.items__name {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+/* line 269, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.items__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+  margin-bottom: 25px;
+}
+
+/* line 277, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.items__price {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+/* line 287, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.best-section {
+  min-height: 663px;
+  margin-bottom: 47px;
+}
+
+/* line 290, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.best-section__box {
+  width: 413px;
+  height: 453px;
+  border-radius: 16px;
+  background: #F8F9FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 28px;
+}
+
+/* line 300, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.best-section__subtitle {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 308, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.best-section__title {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+/* line 317, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.best-section__btn {
+  margin-bottom: 30px;
+}
+
+/* line 322, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.ideas-section {
+  min-height: 728px;
+}
+
+/* line 324, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.ideas-section__box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 73px;
+}
+
+/* line 328, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.ideas-section__left {
+  margin-right: 35px;
+}
+
+/* line 330, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.ideas-section__right {
+  padding-top: 14px;
+}
+
+/* line 332, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.ideas-section__right p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+/* line 340, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.ideas-section__href {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+/* line 354, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section {
+  min-height: 778px;
+}
+
+/* line 356, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__title {
+  margin-bottom: 10px;
+}
+
+/* line 358, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__input {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 363, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__input img {
+  position: absolute;
+  top: 15px;
+  left: 342px;
+}
+
+/* line 367, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__input input {
+  width: 650px;
+  height: 60px;
+  background: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  padding-left: 67px;
+  outline: none;
+}
+
+/* line 375, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__search-btn {
+  width: 660px;
+  height: 98px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 61px;
+}
+
+/* line 384, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__search-btn button {
+  padding: 12px 22px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+}
+
+/* line 389, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__buttons {
+  margin-right: 7px;
+}
+
+/* line 391, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__box {
+  width: 935px;
+  height: 450px;
+  background: #DCE5E2;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 401, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__box input {
+  width: 285px;
+  height: 50px;
+  padding-left: 32px;
+  outline: none;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+}
+
+/* line 409, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.search-section__box a {
+  padding: 16px 32px;
+  color: white;
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+}
+
+/* line 417, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section {
+  min-height: 300px;
+  background: #F8F9FA;
+  padding-top: 45px;
+}
+
+/* line 421, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__inner {
+  display: flex;
+  align-items: start;
+}
+
+/* line 424, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__logo {
+  margin-right: 118px;
+}
+
+/* line 426, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__logo img {
+  margin-bottom: 18px;
+}
+
+/* line 428, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__logo p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* line 435, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__block {
+  display: flex;
+  align-items: start;
+}
+
+/* line 438, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__box {
+  margin-right: 93px;
+}
+
+/* line 440, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__box h3 {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+
+/* line 449, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+.footer-section__box ul li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 1199px) {
+  /* line 460, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 463, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .header-section__inner {
+    justify-content: space-around;
+  }
+  /* line 467, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .nav-list a {
+    margin-right: 22px;
+  }
+  /* line 472, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .menu button {
+    margin-right: 0;
+  }
+  /* line 475, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section {
+    min-height: 358px;
+  }
+  /* line 477, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section__inner {
+    height: 392px;
+  }
+  /* line 479, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section__arrow-left {
+    top: 181px;
+  }
+  /* line 481, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section__arrow-right {
+    top: 181px;
+  }
+  /* line 483, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section__hr {
+    width: 90px;
+  }
+  /* line 487, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .left-wrapper__title {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  /* line 490, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .left-wrapper__subtitle {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  /* line 493, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .btn {
+    padding: 12px 30px;
+  }
+  /* line 497, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .right-wrapper img {
+    height: 390px;
+  }
+  /* line 502, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .categories-section__box {
+    width: 450px;
+    padding-left: 18%;
+    flex-direction: column;
+  }
+  /* line 507, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  /* line 511, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .vertical {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  /* line 518, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .items {
+    flex-wrap: wrap;
+  }
+  /* line 523, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .best-section__box {
+    margin-bottom: 20px;
+  }
+  /* line 526, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .ideas-section {
+    margin-bottom: 60px;
+  }
+  /* line 529, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .ideas-section__box {
+    display: block;
+  }
+  /* line 531, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .ideas-section__left {
+    margin-right: 0;
+    text-align: center;
+  }
+  /* line 534, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .ideas-section__left img {
+    height: 300px;
+  }
+  /* line 537, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .ideas-section__right p {
+    text-align: center;
+  }
+  /* line 542, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .search-section__title {
+    margin-bottom: 20px;
+  }
+  /* line 545, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .search-section__input img {
+    left: 171px;
+  }
+  /* line 550, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .footer-section {
+    min-height: 216px;
+    padding: 0;
+  }
+  /* line 554, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .footer-section__box {
+    margin-right: 30px;
+  }
+  /* line 556, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .footer-section__logo {
+    margin-right: 80px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 562, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 566, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section__arrow-left {
+    display: none;
+  }
+  /* line 568, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .intro-section__arrow-right {
+    display: none;
+  }
+  /* line 572, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .header-section__inner {
+    justify-content: space-between;
+  }
+  /* line 576, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .categories-section__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 580, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .categories-section__title {
+    font-size: 30px;
+  }
+  /* line 582, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .categories-section__box {
+    padding-left: 5%;
+  }
+  /* line 586, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .search-section__box {
+    width: 100%;
+  }
+  /* line 589, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .search-section__input img {
+    left: 50px;
+  }
+  /* line 593, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .footer-section__logo {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 598, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 601, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .nav {
+    display: none;
+  }
+  /* line 605, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .header-section__inner {
+    justify-content: space-between;
+  }
+  /* line 607, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .burger {
+    display: block;
+    margin-left: 20px;
+  }
+  /* line 611, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .right-wrapper {
+    display: none;
+  }
+  /* line 615, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .vertical__box-1 {
+    width: 540px;
+  }
+  /* line 617, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .vertical__box-1 img {
+    width: 475px;
+  }
+  /* line 619, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .vertical__box-2 {
+    width: 540px;
+  }
+  /* line 621, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .vertical__box-2 img {
+    width: 368px;
+  }
+  /* line 625, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .gorizontal__box-1 {
+    width: 234px;
+    height: 635px;
+    margin-right: 70px;
+  }
+  /* line 629, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .gorizontal__box-2 {
+    width: 234px;
+    height: 635px;
+  }
+  /* line 634, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .categories-section__box {
+    padding: 0;
+  }
+  /* line 639, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .ideas-section__right p {
+    font-size: 20px;
+  }
+  /* line 643, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .search-section__search-btn {
+    width: 500px;
+  }
+  /* line 646, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .search-section__input img {
+    left: 20px;
+  }
+  /* line 649, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .title {
+    font-size: 30px;
+  }
+  /* line 653, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .footer-section__inner {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 657, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/California/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
